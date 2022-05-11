@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+*{
+    font-family: 'Whisper', cursive;
+    font-size: 30px;
+}
+
+i{
+    color: gold;
+}
+
+a:visited{
+    color: goldenrod;
+}
+a:link{
+    color: goldenrod;
+}
+
+.container {
+    align-content: space-evenly;
+}
+
+ /*---------------------------------------Logga---------------------------------------------*/
+
+.loggo{
+   text-align: center;
+   margin: 0%;
+   padding: 0%;
+}
+.loggo img{
+    max-width: 35%;
+    max-height: 35%;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media only screen and (min-width:481px) 
+ and (max-width:768px){
+    .loggo img{
+        max-width: 70%;
+    }
+    *{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width:480px){
+    .loggo img{
+        max-width: 70%;
+    }
+    *{
+        font-size: 23px;
+    }
+}
+
+ /*------------------------------------------------------------------------------------*/
+
+
+ /* ------------------------------------------Navbar--------------------------------------- */
+
+.navbar {
+    width: 100vw;
+}
+.navbar-nav{
+    padding: 0%;
+    margin: auto;
+}
+.navbar-nav .nav-link:hover{
+    color: gold;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: goldenrod;
+}
+
+.nav-item ul{
+    border: none;
+}
+
+.nav-item ul:hover{
+    color: green;
+}
+  
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    box-shadow: none;
+    color:goldenrod;
+}
+
+#navbarCollapse ul li ul li a:active{
+    background-color: goldenrod;
+    color: grey;
+}
+
+#navbarCollapse .navbar-nav .dropdown-menu .dropdown-item.active{
+    background-color:goldenrod;
+    
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    margin: 0 0.7rem;
+    color: goldenrod;
+}
+  
+.navbar-toggler .icon-bar {
+    background-color: goldenrod;
+    display: block;
+    height: 2px;
+    width: 22px;
+    margin: 4px 0;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    transform-origin: center left;
+}
+  
+/* Animate X */
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+   transform: rotate(45deg);
+   transform-origin: 10% 10%;
+}
+  
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+   opacity: 0;
+}
+  
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+   transform: rotate(-45deg);
+   transform-origin: 10% 90%;
+} 
+  
+/* Animate Hamburger */
+.navbar-toggler .icon-bar:nth-child(1) {
+   transform: rotate(0);
+} 
+/* middle line goes back to regular color and opacity */
+.navbar-toggler .icon-bar:nth-child(2) {
+   opacity: 1;
+} 
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggler .icon-bar:nth-child(3) {
+   transform: rotate(0);
+}
+
+/*------------------------------------------Footer------------------------------------------*/
+.footer-content {
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: goldenrod;
+}
+
+/*----------------------------------------Showcase-----------------------------------------*/
+.showcase{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;    
+}
+.showcase img{
+    text-align: center;
+    max-width: 40%;
+    min-width: 25%;
+}
+
+#rubrik{
+    text-align: center;
+    margin: auto;
+    margin-top: 5%; 
+}
+
+/*-----------------------------------SENASTE NYTT--------------------------------------- */
+
+
+#inlägg{
+    margin: auto;
+    margin-top: 5%;
+    max-width: 100%;
+    min-width: none;
+}
+
+#inlägg img{
+    margin: auto;
+    margin-top: 2%;
+    max-width: 50%;
+    min-width: none;
+}
+
+/*-----------------------------------Hund + Stamtavla--------------------------------------- */
+
+#snow{
+    margin: auto;
+    max-width: 40%;
+}
+
+.modal-title{
+    color: goldenrod;
+}
+   
+#bodyContent_divStamtavla{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 1pt;
+    color: goldenrod;
+}
+  
+#bodyContent_divStamtavla :visited{
+    color: gold;
+}
+  
+#bodyContent_tblStamtavla{
+    background-color: transparent;
+    border-color: gold;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1pt;
+} 
+  
+.hälsa{
+    font-size: 20pt;
+}
+  
+span, span a{
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------------------------Logga-------------------------------------*/
+
+/*Logo*/
+.logos .block{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#skk, #aaks, #fci{
+    float: left;
+    width: 25%;
+    padding:20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+}
+#skk img{
+    max-width: 100%;
+}
+#aaks img{
+    max-width: 300px;
+}
+#fci img{
+ max-width: 100%;
+}
+
+
+#avelskommitté{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    max-width: 30%;
+    min-width: none;
+    text-align: left;
+          
+}
